@@ -1,0 +1,80 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30.5rem;
+  margin: auto;
+  margin-top: 28px;
+  border-radius: 1rem;
+  // height: 61rem;
+  // margin: 2.8rem 1.5rem;
+  background-color: $white;
+  // opacity: .6;
+
+  // .card_img_content {
+  //   border-radius: 1rem 1rem ;
+  // }
+  .card_img {
+    width: 30.5rem;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .card_text_content {
+    padding: 24px;
+
+    .card_type_product {
+      font-family: $monse;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: .34rem;
+    }
+
+    .card_title {
+      margin-top: 10px;
+      letter-spacing: .12rem;
+      font-family: $fra;
+      font-size: 2.6rem;
+      margin-bottom: 0;
+    }
+
+    .card_p1 {
+      font-size: 14px;
+      font-family: $monse;
+      line-height: 1.9rem;
+      margin: 1.4rem 0 0 0;
+    }
+
+    .card_p2 {
+      margin-top: .3rem;
+      font-size: 14px;
+      font-family: $monse;
+      line-height: 1.6em;
+    }
+
+    .card_price {
+      display: flex;
+      align-items: center;
+      margin-top: 1.9rem;
+      margin-bottom: 1.5rem;
+      gap: 1.7rem;
+      .price_green {
+        color: $darkcyan;
+        font-family: $fra;
+        font-size: 2.8rem;
+      }
+      .price_gray {
+        text-decoration: line-through;
+      }
+    }
+
+    .card_btn {
+        background-color: $darkcyan;
+        color: $white;
+        width: 100%;
+        height: 4.3rem;
+        border: none;
+        border-radius: 1rem;
+      }
+  }
+}
